@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game</title>
+	<link rel="stylesheet" href="./fonts.css">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body class="body">
+	<main class="main" id="menu">
+		<div class="main__menu menu-main">
+			<p class="menu-main__caption">Выберите уровень сложности:</p>
+			<p class="menu-main__desc">Выберите сложность и игра начнется. Чем выше уровень - тем больше будет выборка карт. </p>
+			<ul class="menu-main__level level">
+				<li class="level__simple lvl">Простой</li>
+				<li class="level__medium lvl">Средний</li>
+				<li class="level__complex lvl">Сложный</li>
+			</ul>
+			<div class="menu-main__start start">Начать игру</div>
+		</div>
+		<div class="main__menu-cards menu-cards">
+			<img class="menu-cards__first" src="img/card.png" alt="card">
+			<img class="menu-cards__second" src="img/card.png" alt="card">
+		</div>
+	</main>
+
+	<!-- simple Game -->
+
+	<div class="simple-game displayNone">
+		<table class="simple-game__case simple-case">
+			<tr>
+				<th class="simple-case__cell cell">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</th>
+				<th class="simple-case__cell cell middle-card">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</th>
+				<th class="simple-case__cell cell">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</th>
+			</tr>
+		</table>
+	</div>
+
+	<!-- medium game -->
+
+	<div class="medium-game displayNone">
+		<table class="medium-game__case medium-case">
+			<tr>
+				<th class="medium-case__cell cell">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</th>
+				<th class="medium-case__cell cell">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</th>
+				<th class="medium-case__cell cell">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</th>
+			</tr>
+			<tr>
+				<td class="medium-case__cell cell">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</td>
+				<td class="medium-case__cell cell">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</td>
+				<td class="medium-case__cell cell">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!-- complex Game -->
+
+	<div class="complex-game displayNone">
+		<div class="complex-game__block">
+			<div class="complex-game__case complex-case">
+				<div class="complex-case__cell cell cell-cmplx">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</div>
+				<div class="complex-case__cell cell cell-cmplx">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</div>
+				<div class="complex-case__cell cell cell-cmplx">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</div>
+				<div class="complex-case__cell cell cell-cmplx">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</div>
+				<div class="complex-case__cell cell cell-cmplx">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</div>
+				<div class="complex-case__cell cell cell-cmplx">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</div>
+				<div class="complex-case__cell cell cell-cmplx">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</div>
+				<div class="complex-case__cell cell cell-cmplx">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</div>
+				<div class="complex-case__cell cell cell-cmplx">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</div>
+				<div class="complex-case__cell cell cell-cmplx">
+					<div class="cell__front front">
+						<img class="card" src="img/card.png" alt="">
+					</div>
+					<div class="cell__back back">
+						<img class="card" src="img/game over.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
